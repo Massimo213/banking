@@ -1,4 +1,4 @@
-# Project Title
+# HORIZON Financial Platform 
 
 ![Header Image](URL_to_your_header_image)
 
@@ -22,12 +22,12 @@ Built with Next.js, Horizon is a financial SaaS platform that connects to multip
 - **Responsiveness:** Ensures the application adapts seamlessly to various screen sizes and devices, providing a consistent user experience across desktop, tablet, and mobile platforms.
 - And many more, including code architecture and reusability.
 
-![Feature Demo](https://example.com/feature-demo.png)
+
 
 ## Screenshots
-![Screenshot 1](Capture d’écran, le 2024-09-22 à 15.06.40.png)
-![Screenshot 2](Capture d’écran, le 2024-09-22 à 15.06.10.png)
-![Screenshot 3](Capture d’écran, le 2024-09-22 à 15.06.26.png)
+![Screenshot 1](/Users/yahyamounadi/Desktop/banking/Capture d’écran, le 2024-09-22 à 15.06.10.png)
+
+
 
 ## Installation
 Please find the link below: [Installation Instructions](URL_to_installation_instructions)
