@@ -10,7 +10,7 @@ const Footer = ({ user, type = 'desktop' }: FooterProps) => {
     const loggedOut = await logoutAccount();
 
     if(loggedOut) router.push('/sign-in');
-    if(loggedIn)router.push('/sign-in');
+   
  }
 
   return (
