@@ -10,7 +10,7 @@ const BankCard = ({
 }: CreditCardProps) => {
   return (
     <div className="flex flex-col">
-      <Link href="/" className="bank-card">
+      <Link href={`/transaction-history/?id=${account.appwriteItemId}`} className="bank-card">
         <div className="bank-card-content px-6 py-4"> {/* Added padding */}
           <div className="mb-4"> {/* Added margin-bottom for spacing */}
             <h1 className="text-12 font-semibold text-white pl-4"> {/* Added padding-left */}

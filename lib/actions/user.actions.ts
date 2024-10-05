@@ -35,6 +35,7 @@ export const getUserInfo = async ({ userId }: getUserInfoProps) => {
 export const signIn = async ({ email, password }: signInProps) => {
   try {
     const { account } = await createAdminClient();
+    
     const session = await account.createEmailPasswordSession(email, password);
 
     cookies().set("appwrite-session", session.secret, {
@@ -64,7 +65,7 @@ export const signUp = async ({ password, ...userData }: SignUpParams) => {
       ID.unique(), 
       email, 
       password, 
-      `${firstName} ${lastName}`
+      `${firstName} ${lastName}` 
     );
 
     if(!newUserAccount) throw new Error('Error creating user')
